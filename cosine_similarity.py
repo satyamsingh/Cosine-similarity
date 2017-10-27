@@ -14,7 +14,7 @@ from scipy.spatial.distance import cosine
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-people = pd.read_csv("/media/satyam/DiskG/ML codes/Coursera/Course1/people_wiki.csv")
+people = pd.read_csv(people_wiki.csv)
 
 obama = people[people.name == "Barack Obama"]
 obamatext = obama['text'].iloc[0]
